@@ -1,0 +1,59 @@
+.container{
+position: relative;
+width: 480px;
+height: 476px;
+left: 800px;
+top: 274px;
+background-color: #F9F9FB;
+margin: 0 auto;
+text-align: center;
+border-radius: 10px;
+margin-top: 120px;
+}
+    .container img{
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+        margin-bottom: 30px;
+        border-radius: 100%;
+    }
+
+    input{
+        height: 40px;
+        width: 80%;
+        font-size: 18px;
+        background: rgba(168, 177, 218, 0.32);
+        margin-bottom: 10px;
+        border: none;
+        background-repeat: no-repeat;
+        padding-left: 30px;
+        background-position: 10px;
+        font-family: 'Inter';
+
+        
+        
+    }
+
+    input.email{
+   background-image: url("IMG/envelope.svg");
+}
+
+input.senha{
+    background-image: url("IMG/shield-exclamation.svg");
+}
+
+input.GITHUMB{
+    background-image: url("IMG/GitHub\ ·\ Bootstrap\ Icons.html");
+  
+}
+
+
+input.submit{
+color: #7180B9;
+width: 90%;
+height:48px;
+background: #7180B9;
+font-size: medium;
+font-family: 'Inter';
+color: #000;
+}
